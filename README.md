@@ -65,6 +65,10 @@ server {
 
 - Faça upload dos videos usando o WinSCP
 
+## 📺 Tutorial em Video
+
+- [Clique Aqui!](https://www.youtube.com/watch?v=EugUN6yz4Jk&t=503s)
+
 ## 🌐 Como assistir a transmissão
 
 - Abra o VLC > Mídia > Abrir Transmissão de Rede > Informe a URL do video
