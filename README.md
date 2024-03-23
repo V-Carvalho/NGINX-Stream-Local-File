@@ -69,7 +69,7 @@ server {
   Protocolo: SCP
   Host: IP do server
   Senha: Senha do Server
-  Clique em avançado e adicione a chave de acesso ao server
+  Clique em avançado e adicione a chave SSH
 ```
 
 ## 📺 Tutorial em Video
