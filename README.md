@@ -65,10 +65,11 @@ server {
 
 - Faça upload dos videos usando o WinSCP
 
-```Protocolo: SCP
-   Host: IP do server
-   Senha: Senha do Server
-   Clique em avançado e adicione a chave de acesso ao server
+```
+  Protocolo: SCP
+  Host: IP do server
+  Senha: Senha do Server
+  Clique em avançado e adicione a chave de acesso ao server
 ```
 
 ## 📺 Tutorial em Video
