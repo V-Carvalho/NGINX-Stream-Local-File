@@ -61,6 +61,22 @@ server {
 - Gerando e instalando o certifiado SSL através do plugin instalado no início
   > sudo certbot --nginx
 
+## 🚨 Monitoramento do Hardware
+
+- Instale o nodejs
+  > sudo npm install -g n
+  > sudo n XX.XX.XX
+
+- Instale o forever
+  > sudo npm install forever -g
+
+- Clone o repositório
+  > git clone https://github.com/V-Carvalho/Bot_Hardware_Manager.git
+  > npm install
+
+- Inicie aplicação de monitoramento
+  > forever start app.js
+
 ## ➕ Informações Extras
 
 - Faça upload dos videos usando o WinSCP
@@ -79,4 +95,4 @@ server {
 ## 🌐 Como assistir a transmissão
 
 - Abra o VLC > Mídia > Abrir Transmissão de Rede > Informe a URL do video
-  > **"https://IP_SERVER/hls/T1/EP1/1.m3u8"**
+  > **"https://IP_SERVER/hls/FOLDER_NAME/T1/E1/E1.m3u8"**
