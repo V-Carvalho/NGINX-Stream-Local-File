@@ -65,6 +65,7 @@ server {
 
 - Instale o nodejs
   > sudo npm install -g n
+-
   > sudo n XX.XX.XX
 
 - Instale o forever
@@ -72,6 +73,7 @@ server {
 
 - Clone o repositório
   > git clone https://github.com/V-Carvalho/Bot_Hardware_Manager.git
+-  
   > npm install
 
 - Inicie aplicação de monitoramento
