@@ -63,9 +63,10 @@ server {
 
 ## 🚨 Monitoramento do Hardware
 
-- Instale o nodejs
+- Instale o gerenciador de versões do nodejs
   > sudo npm install -g n
--
+
+- Instale a versão desejada do nodejs
   > sudo n XX.XX.XX
 
 - Instale o forever
@@ -73,7 +74,8 @@ server {
 
 - Clone o repositório
   > git clone https://github.com/V-Carvalho/Bot_Hardware_Manager.git
--  
+
+- Rode dentro da pasta do projeto
   > npm install
 
 - Inicie aplicação de monitoramento
