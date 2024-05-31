@@ -9,13 +9,31 @@ Um servidor para streaming de arquivos estáticos, somente o essencial para voc�
 ## 👮 Segurança - Adicionando chave SSH
 
 - Gerar chave SSH no PuTTYgen
-  > Generate
-  > Crie um senha para a chave
-  > Salve chave privada (essa chave fica na sua máquina)
-  > Todo o código do campo "Public Key" deve ser copiado e salvo no servidor
+  
+```
+  * Clique no botão Generate
+  * Crie um senha para a chave
+  * Salve chave privada (essa chave fica na sua máquina)
+  * Todo o código do campo "Public Key" deve ser copiado e salvo no servidor
+```
 
 - Configuração na VPS para habilitar o acesso apenas com a chave SSH
-  >
+  
+```
+* Crie o diretório de chave SSH:
+> mkdir .ssh
+* Acesse o diretorio criado:
+> cd .ssh
+* Criando o arquivo authorized_keys, local onde a chave pública precisa ser armazenadas(Cole nesse arquivo):
+> sudo nano authorized_keys
+* Abra o arquivo sshd_config para desabilitar a autenticação por senha:
+> sudo nano /etc/ssh/sshd_config
+* Altere os seguintes comandos:
+> PasswordAuthentication no
+> ChallengeResponseAuthentication no
+> UsePAM no
+```
+- [Adicionando chave SSH - Tutorial em Video](https://www.youtube.com/watch?v=WyZWMIA4XUA)
 
 ## 🚀 Rodando o projeto
 
