@@ -6,6 +6,17 @@ Um servidor para streaming de arquivos estáticos, somente o essencial para voc�
 
 ![NGINX](https://skillicons.dev/icons?i=nginx)
 
+## 👮 Segurança - Adicionando chave SSH
+
+- Gerar chave SSH no PuTTYgen
+  > Generate
+  > Crie um senha para a chave
+  > Salve chave privada (essa chave fica na sua máquina)
+  > Todo o código do campo "Public Key" deve ser copiado e salvo no servidor
+
+- Configuração na VPS para habilitar o acesso apenas com a chave SSH
+  >
+
 ## 🚀 Rodando o projeto
 
 - Rodar o comando para atualizar os pacotes do linux
@@ -92,7 +103,7 @@ server {
   Clique em avançado e adicione a chave SSH
 ```
 
-## 📺 Tutorial em Video
+## 📺 Instalação do SSL - Tutorial em Video
 
 - [Clique Aqui!](https://www.youtube.com/watch?v=EugUN6yz4Jk&t=503s)
 
