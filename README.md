@@ -62,7 +62,7 @@ server {
         application/vnd.apple.mpegurl m3u8;
         video/mp2t ts;
       }
-      root /tmp;
+      root /stream;
       add_header Cache-Control no-cache;
       add_header Access-Control-Allow-Origin *;
     }
