@@ -112,13 +112,14 @@ server {
 
 ## ➕ Informações Extras
 
-- Faça upload dos videos usando o WinSCP
+- Faça upload dos videos usando o CyberDuck
 
 ```
-  Protocolo: SCP
-  Host: IP do server
-  Senha: Senha do Server
-  Clique em avançado e adicione a chave SSH
+  Tipo de Protocolo / Conexão: SFTP (SSH File Transfer Protocol)
+  Server: IP do server
+  Username: root
+  Senha: Deixar em branco
+  SSH Private Key: Escolha o diretorio da chave
 ```
 
 ## 📺 Instalação do SSL - Tutorial em Video
